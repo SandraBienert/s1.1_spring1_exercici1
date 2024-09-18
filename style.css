@@ -6,7 +6,6 @@ body{
 .header-container{
     background-color: black;
     border: 12px solid black;
-    flex-basis: 200px;
 }
 
 .menu-container{
@@ -23,19 +22,19 @@ body{
 
 .menu-container #logo{
     flex-basis: 15%;
-    height: 30px;
+    padding: 10px;
 
 }
 
 .menu-container #nav{
     flex-basis: 50%;
-    height: 30px;
+    padding: 10px;
 
 }
 
 .menu-container #social{
     flex-basis: 15%;
-    height: 30px;
+    padding: 10px;
 }
 
 .banner-container{
@@ -124,4 +123,25 @@ body{
 
 .pie{
     padding: 10px;
+}
+
+
+/*_---------------------MEDIAQUERYS-------------------*/
+
+@media (max-width: 768px){
+
+    .menu-container {
+        flex-direction: column;
+    }
+
+     #logo, #nav, #social{
+            padding: 20px;
+    }
+
+    .main-container{
+        flex-direction: column;
+        height: 400px;
+    }
+
+
 }
