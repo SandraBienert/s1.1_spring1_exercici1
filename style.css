@@ -1,0 +1,127 @@
+
+body{
+    max-width: 1200px;
+}
+
+.header-container{
+    background-color: black;
+    border: 12px solid black;
+    flex-basis: 200px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: flex-start;
+    padding: 20px;
+}
+
+.menu-container div{
+    background-color: rgb(231, 12, 12);
+    margin: 5px;
+}
+
+.menu-container #logo{
+    flex-basis: 15%;
+    height: 30px;
+
+}
+
+.menu-container #nav{
+    flex-basis: 50%;
+    height: 30px;
+
+}
+
+.menu-container #social{
+    flex-basis: 15%;
+    height: 30px;
+}
+
+.banner-container{
+    background-color: rgb(248, 165, 11);
+    padding: 20px;
+
+}
+
+#banner{
+    background-color: yellow;
+    font-size: 34px;
+    font-weight: 600;
+    
+}
+
+/*----------comienza MAIN----------------*/
+
+.main-container{
+    
+    border: 12px black solid;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 300px;
+
+}
+
+.article-container{
+    flex-basis: 80%;
+    background-color: darkslateblue;
+    border: 8px black solid;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 10px;
+    padding-left: 10px;
+    justify-content: space-around;
+
+}
+
+.article{
+    background-color: dodgerblue;
+    border: 1px black solid;
+    flex-basis: 45%;
+    height: 15%;
+    margin: 10px;
+    padding-top: 5px;
+   
+}
+
+.navegacion{
+    width: 95%;
+    height: 15%;
+    background-color: cyan;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+.publicidad-container{
+    background-color: deeppink;
+    flex-basis: 25%;
+    border: 8px black solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.publicidad{
+    background-color: gold;
+    margin: 10px;
+    border: 1px solid black;
+    flex-basis: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*--------------------FOOTER--------------*/
+
+.footer-container{
+    border: 12px black solid;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+.pie{
+    padding: 10px;
+}
