@@ -23,6 +23,12 @@ body{
 .menu-container #logo{
     flex-basis: 15%;
     padding: 10px;
+}
+
+.menu-container #logo:hover{
+    background-color: rgb(220, 20, 203);
+    flex-basis: 50%;
+    padding: 20px;
 
 }
 
